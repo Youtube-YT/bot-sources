@@ -20,3 +20,9 @@ bot.readyCommand({
     channel: "",
     code: `$log[Ready on $userTag[$clientID]]`
 })
+
+//variables
+bot.variables({
+  cash: "0",
+    bank: "500"
+})
